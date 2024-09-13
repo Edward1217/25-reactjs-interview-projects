@@ -34,7 +34,7 @@ export default function LightDarkMode() {
     <div className="light-dark-mode" data-theme={theme}>
       <div className="container">
         <p>Hello World !</p>
-        <button onClick={handleToggleTheme}>Change Theme</button>
+        <button className="btn1" onClick={handleToggleTheme}>Change Theme</button>
       </div>
       <div>
         <button className={`toggle-btn ${toggled ? "toggled" :""}`} onClick={handleToggleTheme}>
