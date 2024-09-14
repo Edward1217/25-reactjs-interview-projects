@@ -9,6 +9,7 @@ import menus from "./components/tree-view/data";
 import Button from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
+import Tabs from "./components/custom-tabs/tab-test";
 function App() {
   return (
     <div className="App">
@@ -30,7 +31,9 @@ function App() {
       {/* Light Dark Mode */}
       {/* <LightDarkMode/> */}
       {/* scoll indicator */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      {/* custom tabs */}
+      <Tabs />
     </div>
   );
 }
